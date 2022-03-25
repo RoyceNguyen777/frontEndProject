@@ -1,0 +1,413 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    /* font-family: "Nunito Sans", Helvetica, Arial, sans-serif; */
+    margin: auto;
+}
+
+.container {
+    width: 1200px;
+}
+
+/* ONEPAGE */
+#main-header {
+    background: url(assets/img/banner.jpg) no-repeat bottom;
+    min-height: 870px;
+    background-size: cover;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    padding: 30px 0;
+}
+
+#menu a {
+    text-decoration: none;
+    color: black;
+}
+
+#menu a:hover {
+    color: #10c9c3;
+}
+
+#menu li {
+    list-style-type: none;
+    padding-right: 32px;
+}
+
+#menu ul {
+    display: flex;
+}
+
+#banner-info {
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    width: 580px;
+}
+
+#banner-info>h1 {
+    font-size: 48px;
+    padding-top: 10%;
+}
+
+#banner-info>div,
+#main-aboutus>div,
+#video>p,
+#form p,
+#homeintro p,
+#aboutme p,
+#project p,
+#contact p {
+    font-size: 20px;
+    font-family: "Nunito Sans", Helvetica, Arial, sans-serif;
+    color: gray;
+    padding: 40px 0;
+    font-weight: lighter;
+    line-height: 150%;
+}
+
+#banner-info>button {
+    background-color: #10c9c3;
+    padding: 30px 50px;
+    border: none;
+    border-radius: 5px;
+}
+
+#banner-info>button>a {
+    text-decoration: none;
+    color: white;
+}
+
+#main-aboutus,
+#video,
+#partner,
+#form,
+#homeintro {
+    text-align: center;
+    margin: auto;
+    padding: 3% 0;
+}
+
+#main-aboutus h2,
+#main-skills h2,
+#video h2,
+#form h2,
+#homeintro h2,
+#aboutme h2,
+#project h2,
+#contact h2 {
+    font-size: 38px;
+}
+
+#main-skills {
+    background-color: #F8F9F9;
+    display: flex;
+}
+
+#main-skills label {
+    text-transform: uppercase;
+}
+
+#main-skills img {
+    width: 50%;
+    padding-right: 1%;
+}
+
+#main-skills h2 {
+    margin-bottom: 5%;
+}
+
+#main-skills .info>div {
+    padding: 5% 0;
+}
+
+#main-skills .info progress {
+    width: 550px;
+    height: 7px;
+    color: #10c9c3;
+}
+
+#main-skills .info {
+    padding-left: 13%;
+}
+
+#main-skills span {
+    padding: 0 30px;
+}
+
+#whyus,
+#quote {
+    background-color: #10c9c3;
+    color: white;
+}
+
+#whyus .container {
+    display: flex;
+    padding: 4% 0;
+}
+
+#whyus .container>div {
+    display: flex;
+}
+
+#whyus img {
+    width: 60px;
+    height: 60px;
+    padding-right: 5%;
+}
+
+#whyus span {
+    font-size: 20px;
+}
+
+#whyus p {
+    text-transform: uppercase;
+}
+
+#photos img {
+    width: 100%;
+    display: block;
+}
+
+#photos {
+    display: flex;
+}
+
+#photos+div {
+    background-color: lightgray;
+    padding: 1.5% 0;
+    text-align: center;
+}
+
+#video iframe {
+    width: 80%;
+    height: 600px;
+}
+
+#icon>div {
+    display: flex;
+    text-align: center;
+    padding: 3% 0;
+}
+#icon>div>div>div{
+    padding: 5%;
+}
+#icon {
+    background-color: #F5F5F5;
+    color: rgb(134, 133, 133);
+}
+#icon img {
+    width: 44px;
+    height: 45px;
+    margin-bottom: 15px;
+}
+#icon h5 {
+    color: rgb(73, 71, 71);
+    padding-bottom: 10px;
+}
+#quote .container {
+    text-align: center;
+    padding: 3% 0;
+}
+#quote p:first-child {
+    font-size: 22px;
+    padding-bottom: 1%;
+}
+#partner img{
+    padding: 0 5%;
+}
+#form {
+    background-color: #F5F5F5;
+}
+#form>div {
+    width: 35%;
+}
+#form p {
+    padding: 3%;
+    font-size: 18px;
+}
+#form form input:first-child, input:nth-child(2) {
+    width: 350px;
+    padding: 10px 5px;
+}
+#form form input:nth-child(3) {
+    width: 705px;
+    padding: 10px 5px;
+}
+#form form textarea{
+    width: 705px;
+    padding: 10px 5px;
+    height: 200px;
+}
+#form input, textarea {
+    margin: 10px 0;
+    border: 1px solid rgb(199, 196, 196);
+    border-radius: 5px;
+}
+#form button {
+    color: white;
+    background-color: #10c9c3;
+    padding: 18px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+footer {
+    background-color: black;
+    color: white;
+}
+footer .container, #left, #right {
+    display: flex;
+    padding: 2% 0;
+
+}
+footer div, ul {
+    padding: 0 40px;
+}
+footer li {
+    list-style-type: none;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer p, li {
+    padding-bottom: 10px;
+}
+footer h5 {
+font-size: 22px;
+}
+footer h5{
+    padding: 30px 0;
+}
+#homeintro {
+    background-color: #F5F5F5;
+}
+#about-banner {
+    background-image: url(assets/img/about\ banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height:500px;
+    padding: 8% 0;
+    color: white;
+}
+#about-banner h1 {
+    font-size: 48px;
+    padding-bottom: 2%;
+}
+#about-banner p {
+    line-height: 30px;
+    font-size: 22px;
+}
+#aboutme {
+    background-color: #f6f6f6;
+}
+#aboutme .container, 
+#project .container, 
+#contact .info {
+    display: flex;
+}
+#project img {
+    width: 50%;
+}
+#project .container>div {
+    padding-right: 5%;
+}
+table {
+    margin-left: 0;
+}
+table tr>td:first-child {
+    font-size: 18px;
+}
+table tr>td:nth-child(2){
+    color: gray;
+    font-weight: lighter;
+    font-size: 19px;
+    padding-left: 10px;
+}
+#project-more .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 0;
+}
+#project-more .container>div:first-child, div:last-child {
+    font-weight: bold;
+}
+#project-more .container>div:first-child {
+    margin-left: 0;
+}
+#project-more .container>div:last-child {
+    margin-right: 0;
+}
+#project-more .container>div:first-child>span {
+    color: gray;
+    padding-right: 7px;
+}
+#project-more .container>div:last-child>span {
+    color: gray;
+    padding-left: 5px;
+}
+#contact {
+    background-color: #F5F5F5;
+    padding: 2% 0;
+}
+#contact .info>div {
+    width: 50%;
+    padding-right: 20px;
+}
+#contact form input, #contact textarea{
+    border: none;
+}
+#contact form input:first-child, 
+#contact form input:nth-child(2) {
+    width: 49%;
+    padding: 15px 0 15px 10px;
+}
+#contact form input:first-child {
+    margin-right: 1%;
+}
+#contact form input:nth-child(3), #contact textarea{
+    width: 100%;
+    padding: 15px 0 15px 10px;
+}
+#contact form input, 
+#contact form textarea {
+    margin: 2% 0;
+}
+#contact button {
+    border: none;
+    background-color: #10c9c3;
+    color: white;
+    padding: 15px;
+    margin: 15px 0;
+}
+#contact iframe {
+    width: 100%;
+    margin: 4% 0 3% 0;
+}
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+
+  /* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+  }
